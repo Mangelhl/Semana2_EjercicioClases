@@ -28,25 +28,25 @@ class Program
                     Console.Write("Ingrese la base del rectángulo: ");
                     int baseRectangulo = Convert.ToInt32(Console.ReadLine());
                     Console.Write("Ingrese la altura del rectángulo: ");
-                    int alturaRectangulo = Convert.ToInt32((Console.ReadLine());
+                    int alturaRectangulo = Convert.ToInt32(Console.ReadLine());
                     EjercicioFigura rectangulo = new Rectangulo(baseRectangulo, alturaRectangulo);
                     Console.WriteLine($"El área del rectángulo es: {rectangulo.CalculaArea()}");
                     break;
                 case "2":
                     Console.Write("Ingrese el lado del cuadrado: ");
-                    int ladoCuadrado = Convert.ToInt32((Console.ReadLine());
+                    int ladoCuadrado = Convert.ToInt32(Console.ReadLine());
                     EjercicioFigura cuadrado = new Cuadrado(ladoCuadrado);
                     Console.WriteLine($"El área del cuadrado es: {cuadrado.CalculaArea()}");
                     break;
                 case "3":
                     Console.Write("Ingrese el radio del círculo: ");
-                    int radioCirculo = Convert.ToInt32((Console.ReadLine());
+                    int radioCirculo = Convert.ToInt32(Console.ReadLine());
                     EjercicioFigura circulo = new Circulo(radioCirculo);
                     Console.WriteLine($"El área del círculo es: {circulo.CalculaArea()}");
                     break;
                 case "4":
                     Console.Write("Ingrese la base del triángulo: ");
-                    int baseTriangulo = Convert.ToInt32((Console.ReadLine());
+                    int baseTriangulo = Convert.ToInt32(Console.ReadLine());
                     Console.Write("Ingrese la altura del triángulo: ");
                     int alturaTriangulo = Convert.ToInt32(Console.ReadLine());
                     EjercicioFigura triangulo = new Triangulo(baseTriangulo, alturaTriangulo);
